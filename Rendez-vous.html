@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Planifier un Rendez-vous</title>
+  <link rel="stylesheet" href="Gest.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🗓️ Planifier un Rendez-vous</h1>
+  </header>
+
+  <main>
+    <!-- Formulaire -->
+    <section class="form-section">
+      <form id="rendezvousForm">
+        <label>Nom du candidat :</label>
+        <input type="text" id="nom" required><br><br>
+
+        <label>Email :</label>
+        <input type="email" id="email" required><br><br>
+
+        <label>Entreprise :</label>
+        <input type="text" id="entreprise" required><br><br>
+
+        <label>Date :</label>
+        <input type="date" id="date" required><br><br>
+
+        <label>Heure :</label>
+        <input type="time" id="heure" required><br><br>
+
+        <label>Poste proposé :</label>
+        <input type="text" id="poste" required><br><br>
+
+        <button type="submit">Enregistrer</button><br><br>
+        <button onclick="window.location.href='index.html'">⬅️ Retour </button>
+
+      </form>
+    </section>
+    
+
+    <!-- Liste des rendez-vous -->
+    <section class="list-section">
+      <h2>Liste des rendez-vous</h2>
+      <ul id="listeRendezvous"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <center>&copy; 2026 Plateforme Emploi</center>
+  </footer>
+</body>
+</html>

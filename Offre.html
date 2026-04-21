@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Offres d'emploi</title>
+  <link rel="stylesheet" href="Gest.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>💼 Offres d'emploi</h1>
+    <p>Consultez les postes disponibles et prenez rendez-vous</p>
+  </header>
+
+  <main>
+    <section class="offers-section">
+      <article class="card">
+        <h2>Développeur Web</h2>
+        <p>Entreprise : KinshasaTech</p>
+        <p>Description : Création et maintenance de sites web</p>
+        <button onclick="reserverOffre('Développeur Web','KinshasaTech')">Postuler</button>
+      </article>
+
+      <article class="card">
+        <h2>Assistant Administratif</h2>
+        <p>Entreprise : CongoServices</p>
+        <p>Description : Gestion des dossiers et accueil</p>
+        <button onclick="reserverOffre('Assistant Administratif','CongoServices')">Postuler</button>
+      </article>
+
+      <article class="card">
+        <h2>Commercial</h2>
+        <p>Entreprise : MarketPlus</p>
+        <p>Description : Prospection et suivi clients</p>
+        <button onclick="reserverOffre('Commercial','MarketPlus')">Postuler</button>
+      </article>
+      <button onclick="window.location.href='index.html'">⬅️ Retour </button>
+
+    </section>
+     
+  </main>
+
+  <footer>
+    <center>&copy; 2026 Plateforme Emploi</center>
+  </footer>
+</body>
+</html>
